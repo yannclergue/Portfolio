@@ -1,0 +1,63 @@
+/******************************/
+/* Création des variables */
+/******************************/
+
+:root {
+    --width: 1220px
+}
+
+/******************************/
+/* Style qui ne change pas */
+/******************************/
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h2 {
+    margin: 7vh 0px;
+    font-size: 30px;
+    max-width: var(--width);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    font-size: 1.5em;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+@media (max-width: 600px) {
+    :root {
+        --width:300px
+    }
+
+    h2 {
+        margin: 3vh 0px;
+        font-size: 25px;
+        max-width: var(--width);
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    p {
+        font-size: 1em;
+        line-height: 1.2;
+        margin: 10px;
+    }
+}
+
