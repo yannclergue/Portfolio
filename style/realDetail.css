@@ -30,16 +30,17 @@
     transform: translateZ(-50px) scale(6);
 }
 
-section {
-    font-size: 1.4rem;
-    padding: 1rem;
+.wrapper section {
     background-color: white;
 }
 
 .content {
-    margin-right: auto;
-    margin-left: auto;
+    margin: 0px auto;
     max-width: var(--width);
+}
+
+.content h1 {
+    padding-top: 2%;
 }
 
 #grid {
@@ -60,6 +61,7 @@ section {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 2%;
 }
 
 #flex div img {
