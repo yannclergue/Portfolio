@@ -86,3 +86,44 @@
 .centre {
     margin-left: 20%;
 }
+
+
+@media (max-width: 600px) {
+    #grid {
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 0px;
+        place-items: center;
+    }
+
+    #grid div img {
+        max-width: 150px;
+        width: 150px;
+    }
+
+    #grid div:last-child {
+        display: grid;
+        place-items: center;
+        margin-bottom: 20px;
+    }
+
+    .centre {
+        margin-left: inherit;
+    }
+
+    #flex div img {
+        max-width: 35px;
+        width: 35px;
+    }
+
+    .boutonSite {
+        padding: 10px;
+        background-color: black;
+    }
+
+    #flex-collum {
+       display: grid;
+       place-items: center;
+       text-align: center;
+    }
+}
