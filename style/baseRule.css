@@ -20,9 +20,13 @@ img {
     height: auto;
 }
 
+h1 {
+    font-size: 2em;
+}
+
 h2 {
     margin: 7vh 0px;
-    font-size: 30px;
+    font-size: 1.8em;
     max-width: var(--width);
     margin-left: auto;
     margin-right: auto;

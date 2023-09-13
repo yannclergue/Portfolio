@@ -44,7 +44,6 @@ h1 {
 
     .background {
         overflow-y: hidden;
-        height: auto;
         position: absolute;
         top: 0%;
         bottom: 0%;
@@ -53,11 +52,12 @@ h1 {
         background-color: black;
         z-index: 2;
         display: block;
+        max-height: 100vh;
     }
 
     .background div img {
         margin-left: auto;
-        padding: 0px 10%;
+        padding: 10.9% 10%;
     }
 
     .centre-content, .centre-content p {
