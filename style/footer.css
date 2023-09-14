@@ -13,10 +13,20 @@ footer .lien h3 {
 
 .lien {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     max-width: var(--width);
     margin-left: auto;
     margin-right: auto;
+    gap: 50px;
+}
+
+.flex_contact p{
+    display: flex;
+    align-items: center;
+}
+
+.flex_contact img {
+    padding-right: 5px;
 }
 
 .droits {
@@ -26,3 +36,4 @@ footer .lien h3 {
     align-items: center;
     justify-content: center;
 }
+
