@@ -61,9 +61,13 @@ a:visited {
         --width:300px
     }
 
+    h1 {
+        font-size: 1.7em;
+    }
+
     h2 {
         margin: 3vh 0px;
-        font-size: 25px;
+        font-size: 1.5em;
         max-width: var(--width);
         margin-left: auto;
         margin-right: auto;

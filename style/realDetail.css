@@ -90,7 +90,8 @@
 
 @media (max-width: 600px) {
     .wrapper {
-        overflow-y: hidden;
+     height: auto;
+     color: red;
     }
     
     #grid {
