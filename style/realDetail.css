@@ -89,6 +89,10 @@
 
 
 @media (max-width: 600px) {
+    .wrapper {
+        overflow-y: hidden;
+    }
+    
     #grid {
         display: grid;
         grid-template-columns: 100%;
