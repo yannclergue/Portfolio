@@ -119,13 +119,17 @@
         margin-left: inherit;
     }
 
+    #flex {
+        margin-bottom: 20px;
+    }
+
     #flex div img {
-        max-width: 35px;
-        width: 35px;
+        max-width: 50px;
+        width: 50px;
     }
 
     .boutonSite {
-        padding: 10px;
+        padding: 8px 35px;
         background-color: black;
     }
 
