@@ -90,6 +90,11 @@
 
 @media (max-width: 600px) {
     .wrapper {
+        height: auto;
+    }
+
+    .content {
+        margin-top: -50px;
     }
     
     #grid {
