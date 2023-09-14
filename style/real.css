@@ -44,3 +44,13 @@
     cursor: pointer;
 }
 
+@media (max-width: 600px) {
+    .travaux_grid {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        max-width: var(--width);
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
