@@ -60,12 +60,14 @@
 
 #parcours {
     color: white;
-    background-image: url("../img/machambreNoir2.jpg");
+    /* background-image: url("../img/machambreNoir2.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    z-index: -2;
+    z-index: -2; */
+    background-color: var(--rose);
+    min-height: 100vh;
 }
 
 #parcours h2 {
@@ -83,15 +85,20 @@
     height: auto;
 }
 
+.date span {
+    color: var(--jaune);
+}
+
 .date div {
     max-width: 270px;
     padding: 0px 10px;
-    max-height: 1200px;
-    border: 1px solid white;
+    max-height: 1500px;
+    border: 3px solid var(--rose);
     display: grid;
     place-items: center;
     overflow-wrap: break-word;
     margin-bottom: 10vh;
+    background-color: var(--violet);
 }
 
 /**************************************/

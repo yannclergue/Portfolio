@@ -1,5 +1,5 @@
 /* Style du header */
-.navPC, .navTEL {
+/* .navPC, .navTEL {
     max-width: var(--width);
     margin-left: auto;
     margin-right: auto;
@@ -24,10 +24,10 @@ h1 {
 
 .navTEL {
     display: none;
-}
+} */
 
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
     .navPC {
         display: none;
     }
@@ -70,4 +70,104 @@ h1 {
     .hide {
         display: none;
     }
+} */
+
+body {
+    background-color: var(--violet);
+}
+
+header {
+    background-color: var(--rose);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    color: white;
+    max-width: var(--width);
+    margin: 0px auto;
+    height: 10vh;
+}
+
+ul {
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size: 1.5em;
+}
+
+
+
+nav:first-child {
+    margin-right: auto;
+}
+
+#moi {
+    display: flex;
+    flex-direction: column;
+    min-height: 90vh;
+    background-color: var(--violet);
+    max-width: var(--width);
+    margin: 0px auto;
+}
+
+.texteDefil p {
+    color: white;
+    margin: 0;
+}
+
+.texteDefil span {
+    position: relative;
+    font-weight: bold;
+    color: var(--rose);
+}
+
+.texteDefil span::before {
+    content: "";
+    right: -8px;
+    top: 50%;
+    transform: translateY(-45%);
+    position: absolute;
+    height: 30px;
+    width: 2px;
+    background-color: var(--rose);
+    animation: blink 0.7s infinite;
+}
+
+.texteDefil span.stop-blinking::before {
+    animation: none;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+
+.content {
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex: 1; }
+
+.boutonContainer {
+    display: flex;
+    gap: 20px;
+}
+
+.boutonContainer div {
+    background-color: var(--rose);
+    padding: 0px 10px;
+}
+
+h1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: var(--jaune);
+    margin: 0px;
 }
