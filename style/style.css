@@ -60,12 +60,12 @@
 
 #parcours {
     color: white;
-    /* background-image: url("../img/machambreNoir2.jpg");
+    background-image: url("../img/machambreNoir2.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    z-index: -2; */
+    z-index: -2;
     background-color: var(--rose);
     min-height: 100vh;
 }

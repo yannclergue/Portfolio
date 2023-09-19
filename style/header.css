@@ -114,6 +114,16 @@ nav:first-child {
     margin: 0px auto;
 }
 
+.texteDefil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imgCarrousel {
+    overflow: hidden;
+}
+
 .texteDefil p {
     color: white;
     margin: 0;
@@ -173,9 +183,21 @@ h1 {
 }
 
 
-.content span:nth-child(3) {
+.content > span {
     font-size: 4em;
     color: var(--jaune);
     margin-top: 20px;
     margin-bottom: -15px;
+}
+
+
+.contentFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.contentFlex div {
+
 }
