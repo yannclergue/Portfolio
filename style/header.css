@@ -171,3 +171,11 @@ h1 {
     color: var(--jaune);
     margin: 0px;
 }
+
+
+.content span:nth-child(3) {
+    font-size: 4em;
+    color: var(--jaune);
+    margin-top: 20px;
+    margin-bottom: -15px;
+}
