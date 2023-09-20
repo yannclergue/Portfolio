@@ -7,51 +7,90 @@
 /* Style de la section "presentation" */
 /**************************************/
 
-#presentation {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    justify-content: space-between;
-    max-width: var(--width);
-    margin-left: auto;
-    margin-right: auto;
-    height: 70vh;
-}
-
-#presentation div {
+#moi {
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    min-height: 90vh;
+    background-color: var(--violet);
+    max-width: var(--width);
+    margin: 0px auto;
+}
+
+.motCache {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: flex-end;
+    gap: 20px;
+    overflow: hidden;
 }
 
-#presentation div img {
-    z-index: 3;
+.motCache div {
+    color: var(--rose);
+    font-size: 4em;
+    font-weight: bold;
+    transform: translateX(-150%);
+    animation: droite 1s forwards;
 }
 
-.parent {
+@keyframes droite {
+    0% {
+        transform: translateX(-200%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
+.motCache div:nth-child(1){
+    animation-delay: 2s;
+}
+
+.motCache div:nth-child(2){
+    animation-delay: 3s;
+}
+
+.motCache div:nth-child(3){
+    animation-delay: 4s;
+}
+
+h1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: var(--jaune);
+    margin: 0px;
+}
+
+.content {
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex: 1;
+}
+
+.content > span {
+    font-size: 4em;
+    color: var(--jaune);
+    margin-top: 20px;
+    margin-bottom: -15px;
+}
+
+.contentFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     position: relative;
 }
 
-.parent {
-    width: 300px;
-    height: 300px;
-    background-image: url("../img/moi300x300.jpg");
+.boutonContainer {
+    display: flex;
+    gap: 20px;
 }
 
-.parent>div {
-    width: 200px;
-    height: 200px;
-    background-color: black;
-    position: absolute;
-}
-
-.bloc1 {
-    transform: translate(-40%, 40%);
-    z-index: -3;
-}
-
-.bloc2 {
-    transform: translate(40%, -40%);
-    z-index: -3;
+.boutonContainer div {
+    background-color: var(--rose);
+    padding: 0px 10px;
 }
 
 /**************************************/

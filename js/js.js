@@ -14,10 +14,10 @@ const typeEffect = () => {
 
     if (!isDeleting && charIndex < currentWord.length) {
         charIndex++;
-        setTimeout(typeEffect, 200)
+        setTimeout(typeEffect, 100)
     } else if (isDeleting && charIndex > 0) {
         charIndex--;
-        setTimeout(typeEffect, 100)
+        setTimeout(typeEffect, 80)
     } else {
         isDeleting = !isDeleting;
         dynamicTest.classList.remove("stop-blinking")
