@@ -1,3 +1,10 @@
+/* Règle spécial pour le h1 des détails des réals */
+
+h1{
+    margin-bottom: 10px;
+}
+
+/* Code permetant de faire l'effet de paralax */
 
 .wrapper {
     height: 100vh;
@@ -30,8 +37,16 @@
     transform: translateZ(-50px) scale(6);
 }
 
-.wrapper section {
-    background-color: white;
+/* Fin du code pour le paralax */
+
+/* Code pour le contenue en deuxième partie de page */
+
+section {
+    background-color: var(--violet);
+}
+
+.backColor {
+    background-color: var(--violet);
 }
 
 .content {
@@ -49,6 +64,9 @@
     gap: 60px;
     align-items: center;
 }
+
+
+/* Code pour les boutons de la galère en bas */
 
 #flex-collum {
     display: flex;
@@ -79,8 +97,8 @@
 }
 
 .boutonSite {
-    padding: 20px;
-    background-color: black;
+    padding: 30px 40px;
+    background-color: var(--rose);
 }
 
 .centre {

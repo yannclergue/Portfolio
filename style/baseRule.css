@@ -17,7 +17,7 @@ html {
   }
 
 /******************************/
-/* Style qui ne change pas */
+/* Style qui ne change pas ou presque */
 /******************************/
 
 body {
@@ -55,6 +55,11 @@ p {
     line-height: 1.6;
     font-family: poppins;
     color: white;
+}
+
+em {
+    color: var(--jaune);
+    font-size: 2em;
 }
 
 a {
