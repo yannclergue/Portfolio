@@ -1,3 +1,13 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex-grow: 1;
+}
+
 #travaux {
     max-width: var(--width);
     margin-left: auto;
@@ -43,6 +53,8 @@
     font-size: 18px;
     cursor: pointer;
 }
+
+
 
 @media (max-width: 600px) {
     .travaux_grid {
