@@ -85,12 +85,19 @@ h1 {
 
 .boutonContainer {
     display: flex;
-    gap: 20px;
+    gap: 40px;
 }
 
 .boutonContainer div {
     background-color: var(--rose);
     padding: 0px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.boutonContainer div p {
+    display: flex;
+    gap: 10px;
 }
 
 /**************************************/
@@ -156,7 +163,7 @@ h1 {
 }
 
 #bouton a {
-    background-color: black;
+    background-color: var(--rose);
     padding: 20px;
 }
 
