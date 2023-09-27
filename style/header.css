@@ -72,8 +72,9 @@ nav:first-child {
     gap: 80px;
     align-items: center;
     justify-content: center;
-    min-height: 90vh;
+    min-height: 100vh;
     font-size: 3.5em;
+    transform: translateY(-100px);
 }
 
 @media (max-width: 600px) {
