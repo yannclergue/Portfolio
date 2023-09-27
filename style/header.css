@@ -3,7 +3,7 @@ body {
 }
 
 header {
-    background-color: green;
+    background-color: var(--rose);
     color: white;
 }
 
@@ -37,6 +37,13 @@ nav:first-child {
     overflow: hidden;
 }
 
+.mobileFor {
+    max-width: var(--width);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
 .mobileBackHead {
     display: flex;
     align-items: center;
@@ -45,15 +52,12 @@ nav:first-child {
     margin: 0 auto;
 }
 
-.mobileBackHead ul {
-    visibility: hidden;
+.mobileBackHead div img {
+    transform: translateY(2px);
 }
 
-.mobileFor {
-    max-width: var(--width);
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
+.mobileBackHead ul {
+    visibility: hidden;
 }
 
 .mobileBack {
@@ -74,6 +78,8 @@ nav:first-child {
     justify-content: center;
     min-height: 100vh;
     font-size: 3.5em;
+    margin-top: -100px;
+    overflow: hidden;
 }
 
 @media (max-width: 600px) {
