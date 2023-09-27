@@ -230,4 +230,11 @@ h1 {
     .descend {
        margin-bottom: 50px;
     }
+
+    .content > span {
+        font-size: 2em;
+        color: var(--jaune);
+        margin-top: 20px;
+        margin-bottom: -15px;
+    }
 }
