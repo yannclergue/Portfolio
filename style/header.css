@@ -4,6 +4,7 @@ body {
 
 header {
     background-color: var(--rose);
+    color: white;
 }
 
 nav {
@@ -29,4 +30,56 @@ nav:first-child {
     margin-right: auto;
 }
 
+/* Partie mobile  */
 
+.mobile {
+    display: none;
+}
+
+.mobileFor {
+    max-width: var(--width);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mobileBack {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--rose);
+    z-index: 3;
+}
+
+.mobileBackContent {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.mobileBackHead {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: var(--width);
+    margin: 0 auto;
+}
+
+.mobileBackHead ul {
+    visibility: hidden;
+}
+
+@media (max-width: 600px) {
+    nav {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+}

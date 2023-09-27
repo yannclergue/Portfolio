@@ -71,6 +71,11 @@ a:visited {
     color: white;
 }
 
+.hide {
+    display: none;
+}
+
+
 @media (max-width: 600px) {
     :root {
         --width:300px

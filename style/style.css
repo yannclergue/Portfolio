@@ -100,6 +100,7 @@ h1 {
     gap: 10px;
 }
 
+
 /**************************************/
 /* Style de la section "parcours" */
 /**************************************/
@@ -169,6 +170,8 @@ h1 {
 
 
 @media (max-width: 600px) {
+
+
     #presentation {
         grid-template-columns: 100%;
         max-width: var(--width);
