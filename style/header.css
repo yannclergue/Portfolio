@@ -3,7 +3,7 @@ body {
 }
 
 header {
-    background-color: var(--rose);
+    background-color: red;
     color: white;
 }
 
