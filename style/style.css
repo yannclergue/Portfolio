@@ -171,6 +171,21 @@ h1 {
 
 @media (max-width: 600px) {
 
+    .motCache div {
+        display: none;
+    }
+
+    .contentFlex {
+        margin-bottom: 50px;
+    }
+
+    .boutonContainer div {
+      
+    }
+
+    .boutonContainer div a p img {
+        width: 20px;
+    }
 
     #presentation {
         grid-template-columns: 100%;
@@ -182,6 +197,9 @@ h1 {
         gap: 30px;
     }
 
+    .content > span {
+        margin: 0px;
+    }
 
     .parent {
         width: 150px;
