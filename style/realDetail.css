@@ -97,12 +97,21 @@ section {
 }
 
 @media (max-width: 600px) {
+
+    /* Définition de la hauteur du wrapper sur auto pour s'adapapter à toutes les tailes d'écran */
+
     .wrapper {
         height: auto;
     }
 
+    .wrapElement svg {
+        display: none;
+    }
+
+    /* Code pour le contenu écrit, comprenant les explications du projet ainsi que l'image */
+
     .content {
-        margin-top: -100px;
+        margin-top: -50px;
     }
     
     #grid {
@@ -125,25 +134,21 @@ section {
 
     .centre {
         margin-left: inherit;
+        text-align: center;
     }
 
-    #flex {
-        margin-bottom: 20px;
+    /* Code pour le bouton ainsi que les fléches de direction en bas */
+
+    .lienVersSite:hover {
+        transform: scale(1.1);
+        transition: 0.4s;
     }
 
-    #flex div img {
-        max-width: 50px;
-        width: 50px;
+    .lienVersSite {
+        background-color: var(--rose);
+        padding: 15px 20px;
+        transition: 0.4s;
     }
 
-    .boutonSite {
-        padding: 8px 35px;
-        background-color: black;
-    }
 
-    #flex-collum {
-       display: grid;
-       place-items: center;
-       text-align: center;
-    }
 }
