@@ -7,19 +7,6 @@ footer {
     color: white;
 }
 
-.mail {
-    background-color: black;
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    color: white;
-    margin-left: 20px;
-}
-
-.mail a {
-    color: white;
-}
-
 .droits {
     background-color: rgb(22, 22, 22);
     color: white;
@@ -28,12 +15,9 @@ footer {
     justify-content: center;
 }
 
-.droits p {
-    height: 1em !important;
-}
 
 @media (max-width: 600px) {
-.lien div div p {
-    margin-bottom:  30px;
-}
+    .lien div div p {
+        margin-bottom: 30px;
+    }
 }
