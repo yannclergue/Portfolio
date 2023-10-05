@@ -90,15 +90,61 @@ h1 {
 }
 
 .boutonContainer div {
-    background-color: var(--rose);
+    display: inline-block;
+    border: 2px solid var(--rose);
     padding: 0px 10px;
     display: flex;
     align-items: center;
+    letter-spacing: 1px;
+    box-shadow: inset 0 0 0 0 var(--rose);
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+}
+
+.boutonContainer div:nth-child(1):hover{
+    box-shadow: inset 0 100px 0 0 var(--rose);
+}
+
+.boutonContainer div:nth-child(2):hover{
+    box-shadow: inset 300px 0 0 0 var(--rose);
 }
 
 .boutonContainer div p {
     display: flex;
     gap: 10px;
+}
+
+#flecheBas {
+    animation: flecheBas 2s linear infinite;
+}
+
+@keyframes flecheBas {
+    0% {
+        transform: translateY(0px);
+    }
+    30% {
+        transform: translateY(-5px);
+    }
+    70% {
+        transform: translateY(10px);
+    }
+}
+
+#flecheCote {
+    animation: flecheCote 2s linear infinite;
+}
+
+@keyframes flecheCote {
+    0% {
+        transform: translateX(0px);
+    }
+    30% {
+        transform: translateX(-5px);
+    }
+    70% {
+        transform: translateX(10px);
+    }
 }
 
 
@@ -146,6 +192,35 @@ h1 {
     overflow-wrap: break-word;
     background-color: var(--violet);
 }
+
+.animation1 {
+    transform: translateX(-700px);
+    transition: transform 2s;
+}
+
+.animation1.active {
+    transform: translateX(0px);
+    transition: 2s;
+}
+
+.animation2 {
+    transform: translateX(-1200px);
+}
+
+.animation2.active {
+    transform: translateX(0px);
+    transition: 2s;
+}
+
+.animation3 {
+    transform: translateX(-1700px);
+}
+
+.animation3.active {
+    transform: translateX(0px);
+    transition: 2s;
+}
+
 
 /**************************************/
 /* Style de la section "bouton" */

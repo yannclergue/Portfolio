@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="style/header.css">
     <link rel="stylesheet" href="style/footer.css">
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <script defer src="./js/js.js"></script>
     <title>Yann Clergue - Portfolio</title>
 </head>
 
@@ -76,37 +77,40 @@
                 <div class="boutonContainer">
                     <div>
                         <a href="#parcours">
-                            <p><img src="./img/flecheBas.svg" width="30" alt="fleche blanche allant vers le bas">Voir
+                            <p><img src="./img/flecheBas.svg" id="flecheBas" width="30"
+                                    alt="fleche blanche allant vers le bas">Voir
                                 mon parcours</p>
                         </a>
                     </div>
                     <div>
                         <a href="./page/real.html">
-                            <p><img src="./img/flecheD.svg" width="30" alt="fleche blanche allant vers la droite">Voir
+                            <p><img src="./img/flecheD.svg" id="flecheCote" width="30"
+                                    alt="fleche blanche allant vers la droite">Voir
                                 mes
                                 travaux</p>
                         </a>
-
                     </div>
                 </div>
             </div>
         </div>
+
+        <div class="trigger"></div>
         <section id="parcours">
             <h2>Parcours</h2>
             <div class="date">
-                <div>
+                <div class="animation1">
                     <p><span><strong>2020 - 2022</strong></span></p>
                     <p>Septembre à Juin
                     <p>Formation ~ Métiers du Multimédia et de l'Internet<br> <u>Mulhouse</u>
                     <p>Obtention du diplome
                 </div>
-                <div>
+                <div class="animation2">
                     <p><span><strong>2022</strong></span></p>
                     <p>Mai - Juin
                     <p>Stage ~ L'observatoire de la nature <br> <u>Colmar</u>
                     <p>Wordpress / vidéo / graphisme
                 </div>
-                <div class="descend">
+                <div class="descend animation3">
                     <p><span><strong>2022 - 2023</strong></span></p>
                     <p>Septembre - Août
                     <p>Alternance ~ Crédit Agricole <br> <u>Strasbourg</u>
@@ -119,13 +123,16 @@
                 <p>Voir mes réalisations</p>
             </a>
         </section>
+
+
         <footer>
             <div class="droits">
                 <p>Yann Clergue © | Tous droits réservés - 2023</p>
             </div>
         </footer>
+
+
     </main>
-    <script src="./js/js.js"></script>
 </body>
 
 </html>
