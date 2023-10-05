@@ -30,6 +30,12 @@ nav:first-child {
     margin-right: auto;
 }
 
+nav li:nth-child::after{
+    width: 20px;
+    height: 10px;
+    background-color: var(--jaune);
+}
+
 /* Partie mobile  */
 
 .mobile {
