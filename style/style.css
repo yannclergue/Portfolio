@@ -238,10 +238,15 @@ h1 {
 }
 
 #bouton a {
-    background-color: var(--rose);
-    padding: 20px;
+    border: 1px solid var(--rose);
+    padding: 10px;
 }
 
+#bouton a:hover, 
+#bouton a:focus {
+  animation: pulse 1s;
+  box-shadow: 0 0 0 2.5em transparent;
+}
 
 @media (max-width: 600px) {
 

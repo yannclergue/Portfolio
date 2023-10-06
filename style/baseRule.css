@@ -108,6 +108,10 @@ li {
     list-style: none;
 }
 
+@keyframes pulse {
+    0% { box-shadow: 0 0 0 0 var(--rose); }
+  }
+  
 
 @media (max-width: 600px) {
     :root {

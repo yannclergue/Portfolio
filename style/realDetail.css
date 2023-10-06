@@ -107,14 +107,16 @@ section {
 }
 
 .lienVersSite {
-    background-color: var(--rose);
+    border: 1px solid var(--rose);
     padding: 20px 40px;
     transition: 0.4s;
 }
 
-.lienVersSite:hover {
-    transform: scale(1.1);
-    transition: 0.4s;
+
+.lienVersSite:hover, 
+.lienVersSite:focus {
+  animation: pulse 1s;
+  box-shadow: 0 0 0 2em transparent;
 }
 
 @media (max-width: 600px) {
