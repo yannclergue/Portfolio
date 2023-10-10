@@ -58,8 +58,12 @@ nav li:nth-child::after{
     margin: 0 auto;
 }
 
+.mobileFor img {
+    padding: 10px 0px;
+}
+
 .mobileBackHead div img {
-    transform: translateY(2px);
+    padding: 10px 0px;
 }
 
 .mobileBackHead ul {
