@@ -23,6 +23,7 @@
     align-items: flex-end;
     gap: 20px;
     overflow: hidden;
+    font-family: poppins;
 }
 
 .motCache div {
