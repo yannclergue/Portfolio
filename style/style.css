@@ -27,7 +27,7 @@
 }
 
 .motCache div {
-    color: var(--rose);
+    color: var(--blanc);
     font-size: 4em;
     font-weight: bold;
     transform: translateX(-150%);

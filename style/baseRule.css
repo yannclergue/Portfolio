@@ -4,9 +4,10 @@
 
 :root {
     --width: 1220px;
-    --rose: #d42b7d;
-    --violet: #2a0649;
-    --jaune: #ffd319;
+    --rose: #6c757d;
+    --violet: #495057;
+    --jaune: #e09926;
+    --blanc: #ffffff;
     --temps: 1.5s
 }
 
